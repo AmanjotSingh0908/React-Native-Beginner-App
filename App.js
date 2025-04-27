@@ -18,7 +18,7 @@ export default function App() {
   }
 
   function addGoalHandler(enteredGoalText) {
-    // setCourseGoals([...courseGoals, enteredGoalText]);  //One way of updatng  but not a good way if previous tate depends on updated state
+    // setCourseGoals([...courseGoals, enteredGoalText]);  //One way of updatng  but not a good way if previous tate depends on updated state instead use a function like below
 
     setCourseGoals((currentCourseGoals) => [
       ...currentCourseGoals,
